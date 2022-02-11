@@ -1,0 +1,22 @@
+<header>
+    <div class="container">
+        <h5>welcome : {{ loggedUser }}</h5>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerlink="/Registration">User registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerlink="/attendance">Attendance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerlink="/report">Par rolll</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" (click)="logOut()">LogOut</a>
+            </li>
+
+        </ul>
+    </nav>
+</header>

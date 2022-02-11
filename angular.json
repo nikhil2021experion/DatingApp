@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "DemoDatingApp"
+    }
+  },
+  "defaultProject": "DemoDatingApp",
+  "cli": {
+    "analytics": "d7975fb8-3763-4e31-995c-b80d347faf45"
+  }
 }
